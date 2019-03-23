@@ -1,0 +1,65 @@
+#navbar {
+  height: 100vh;
+  position: fixed;
+  width: 300px;
+  top: 0;
+  left: 0;
+  border-right: 3px solid black;
+}
+
+@media (max-width: 1000px) {
+  #navbar {
+    position: static;
+    width: 90vw;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 100%;
+  }
+}
+
+#navbar header {
+  font-size: 2em;
+  text-align: center;
+  padding: 15px;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar ul li {
+  border-top: 2px solid black;
+  padding: 10px 20px;
+}
+
+#navbar ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-doc {
+  margin-left: 300px;
+}
+
+@media (max-width: 1000px) {
+  #main-doc {
+    margin: 0 auto;
+  }
+}
+
+#main-doc header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#main-doc section {
+  padding: 20px;
+}
+
+#main-doc section code {
+  background-color: whitesmoke;
+  padding: 5px 10px;
+}
+/*# sourceMappingURL=style.css.map */
